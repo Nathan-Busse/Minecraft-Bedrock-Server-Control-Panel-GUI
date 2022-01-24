@@ -25,7 +25,7 @@ Here is a tutorial to help you with port forwarding and setting up a Dynamic IP 
 https://youtu.be/aiSla-5xq3w
 
 # Step 2:
- Clone the repository
+ Clone the repository.
 ``` git clone https://github.com/Nathan-Busse/Minecraft-Bedrock-Server-Control-GUI.git ```
  
  # Step 3:
@@ -46,7 +46,7 @@ Save and close the script.
 
 # Step 6:
 
-Run the ```install.py``` script
+Run the ```install.py``` script.
 
 It will install all the package requirements automatically.
 
@@ -54,12 +54,12 @@ It will automatically close the script.
 
 # Step 7
 
-Run ```MCBE control gui.py```
+Run ```MCBE control gui.py```.
 
 Your Server should start automatically.
 
 # How to use
-```Server Console``` Displays the inputs and outputs and other useful information of the server 
+```Server Console``` Displays the inputs and outputs and other useful information of the server. 
 
 ```File``` button gives additional functions such as ```View folder directory```,  ```exit``` and ```force exit``` the script.
 
@@ -86,4 +86,5 @@ Quit correctly
 
 ```
 
+Enjoy! 😉
 
