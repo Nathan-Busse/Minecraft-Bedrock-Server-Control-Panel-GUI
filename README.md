@@ -20,12 +20,12 @@ Here is a tutorial to help you with port forwarding and setting up a Dynamic IP 
 https://youtu.be/aiSla-5xq3w
 
 # Step 2:
- 
+ Clone the repository
 ``` git clone https://github.com/Nathan-Busse/Minecraft-Bedrock-Server-Control-GUI.git ```
  
  # Step 3:
  
- Move the cloned Repository inside your Minecraft Bedrock Dedicated Server directory.
+ Move the cloned Repository inside your Minecraft Bedrock Dedicated Server directory and extract it.
  
  # Step 4:
 
