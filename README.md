@@ -5,7 +5,7 @@ A control dashboard to monitor and control your minecraft bedrock dedicated serv
 
 This only works for Bedrock.
 
-# How to use and set things up.
+# Installation.
 
 # Step 1:
 
@@ -29,7 +29,7 @@ https://youtu.be/aiSla-5xq3w
  
  # Step 4:
 
-Open the "MCBE control gui.py" Script in your IDE and change the directory to the location of your Minecraft Bedrock Dedicated Server.
+Open the ```MCBE control gui.py``` Script in your IDE and change the directory to the location of your Minecraft Bedrock Dedicated Server.
 
 ```python
   
@@ -41,8 +41,44 @@ Save and close the script.
 
 # Step 6:
 
-Run the "install.py" script
+Run the ```install.py``` script
 
 It will install all the package requirements automatically.
+
+It will automatically close the script.
+
+# Step 7
+
+Run ```MCBE control gui.py```
+
+Your Server should start automatically.
+
+# How to use
+```Server Console``` Displays the inputs and outputs and other useful information of the server 
+
+```File``` button gives additional functions such as ```View folder directory```,  ```exit``` and ```force exit``` the script.
+
+```Update``` Update the Server to the latest version. [DO NOT USE!] (Their is a bug that causes the programmw to become unresponsive.)
+
+```Start Server``` button Starts the server.
+
+```Backup World``` button Creates a copy of your world.
+
+```Players``` Lists the players connected to the server.
+
+```Interact``` Send in-game commands through the control panel.
+
+```Send Command``` Used to send console commands or in-game commands.
+
+```SEND``` button Sends the command to the console.
+
+Type ```stop``` in the ```Send Command``` tab and click ```SEND``` to shutdown the server or close the programme completely.
+
+The server has shutdown successfuly when this message is displayed:
+
+```
+Quit correctly
+
+```
 
 
