@@ -58,7 +58,7 @@ Run ```MCBE control gui.py```.
 
 Your Server should start automatically.
 
-# How to use
+# How to use.
 ```Server Console``` Displays the inputs and outputs and other useful information of the server. 
 
 ```File``` button gives additional functions such as ```View folder directory```,  ```exit``` and ```force exit``` the script.
