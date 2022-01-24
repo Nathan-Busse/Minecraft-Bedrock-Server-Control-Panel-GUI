@@ -21,7 +21,7 @@ https://youtu.be/aiSla-5xq3w
 
 # Step 2:
  
- git clone https://github.com/Nathan-Busse/Minecraft-Bedrock-Server-Control-GUI.git
+``` git clone https://github.com/Nathan-Busse/Minecraft-Bedrock-Server-Control-GUI.git ```
  
  # Step 3:
  
