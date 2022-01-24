@@ -58,7 +58,7 @@ Your Server should start automatically.
 
 ```File``` button gives additional functions such as ```View folder directory```,  ```exit``` and ```force exit``` the script.
 
-```Update``` Update the Server to the latest version. [DO NOT USE!] (Their is a bug that causes the programmw to become unresponsive.)
+```Update``` Update the Server to the latest version. [DO NOT USE!] (Their is a bug that causes the programme to become unresponsive.)
 
 ```Start Server``` button Starts the server.
 
