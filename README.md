@@ -41,4 +41,8 @@ Save and close the script.
 
 # Step 6:
 
-Run the script
+Run the "install.py" script
+
+It will install all the package requirements automatically.
+
+
