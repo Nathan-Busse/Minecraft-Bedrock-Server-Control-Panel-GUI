@@ -59,23 +59,23 @@ Run ```MCBE control gui.py```.
 Your Server should start automatically.
 
 # How to use.
-```Server Console``` Displays the inputs and outputs and other useful information of the server. 
+The ```Server Console``` Displays the inputs and outputs and other useful information of the server. 
 
-```File``` button gives additional functions such as ```View folder directory```,  ```exit``` and ```force exit``` the script.
+The ```File``` button gives additional functions such as ```View folder directory```,  ```exit``` and ```force exit``` the script.
 
-```Update``` Update the Server to the latest version. [DO NOT USE!] (Their is a bug that causes the programme to become unresponsive.)
+The ```Update``` Updates the Server to the latest version. [DO NOT USE!] (Their is a bug that causes the programme to become unresponsive.)
 
-```Start Server``` button Starts the server.
+The ```Start Server``` button Starts the server.
 
-```Backup World``` button Creates a copy of your world.
+The ```Backup World``` button Creates a copy of your world.
 
-```Players``` Lists the players connected to the server.
+The ```Players``` Lists the players connected to the server.
 
-```Interact``` Send in-game commands through the control panel.
+The ```Interact``` Send in-game commands through the control panel.
 
-```Send Command``` Used to send console commands or in-game commands.
+The ```Send Command``` Used to send console commands or in-game commands.
 
-```SEND``` button Sends the command to the console.
+The ```SEND``` button Sends the command to the console.
 
 Type ```stop``` in the ```Send Command``` tab and click ```SEND``` to shutdown the server or close the programme completely.
 
@@ -85,6 +85,24 @@ The server has shutdown successfuly when this message is displayed:
 Quit correctly
 
 ```
+# What I plan to add to the GUI
+
+```Repair the Update bug```
+
+```Auto Rollback```
+
+```Auto restart and shutdown```
+
+```Auto backup everytime the sever is updated to the latest version```
+
+```Access sever.properties through the console```
+
+```Access whitelist.json through the console```
+
+```Access permissions.json through the console```
+
+```Add a stop button```
+
 
 Enjoy! 😉
 
