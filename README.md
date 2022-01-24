@@ -16,7 +16,7 @@ This only works for Bedrock.
 
 Download the server from Minecraft: https://minecraft.net/download/server/bedrock
 
-Here is a tutorial to setup your Minecraft Server
+Here is a tutorial to help you setup your Minecraft Server
 
 https://youtu.be/L36OdDIHkZg
 
