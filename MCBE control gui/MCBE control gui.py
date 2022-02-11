@@ -403,7 +403,7 @@ class GUI(tkinter.Tk):
 
     def wrapcom_view(self):
         """Opens the folder containing the server."""
-        if sys.platform == "win64":
+        if sys.platform == "win32":
             os.startfile(self.server_dir)
         elif sys.platform == "darwin":
             subprocess.Popen(["open", self.server_dir])
