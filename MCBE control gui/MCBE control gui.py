@@ -29,14 +29,14 @@ from tkinter.scrolledtext import ScrolledText
 
 from server_controller import BDS_Wrapper as ServerInstance
 from player_list import PlayerList
-from updater import ServerUpdater
+
 from backup import BackupListener, make_timestamp
 
 
 # Server directories
 
 class GUI(tkinter.Tk):
-    default_server_dir =  "C:/Users/Nathan/Documents/Minecraft Servers/bedrock-server-1.18.2.03" # Change directory to your server's location
+    default_server_dir =os.path.expanduser('~/Documents/Minecraft Servers/MCBE Server') # Change directory to your server's location
     default_exec_name = "bedrock_server.exe"
 
     def __init__(self, *args, server_dir = None, exec_name = None, **kwargs):
@@ -58,6 +58,7 @@ class GUI(tkinter.Tk):
         self.__make_menu()
         self.__make_left()
         self.__make_right()
+        
 
         self.server_instance = None
         self.server_dir = self.default_server_dir if server_dir is None else server_dir
@@ -85,6 +86,12 @@ class GUI(tkinter.Tk):
         update_menu.add_command(label="Update Server", command=lambda: self.wrapcom_update("server"))
         
         menu.add_cascade(label="Update",  menu=update_menu)
+
+        menu.add_cascade(label="Created by Nathan-Busse" )
+
+        #frame( bg="white")
+        
+        
 
     def __make_left(self):
         # Set up left-side GUI elements.
@@ -141,9 +148,11 @@ class GUI(tkinter.Tk):
         self.console = scrollbox
 
     def __output_handler(self, text):
+        
         self.write_console(text)
-        self.__interpret(text)
 
+        self.__interpret(text)
+        
     def __interpret(self, message):
         """Reads input from the server or user and calls listeners."""
         # Send server messages to listeners.
@@ -185,6 +194,7 @@ class GUI(tkinter.Tk):
             self.server_input(text)
 
     def add_listener(self, listener):
+
         """Adds a listener to call whenever a server message apperars in the log."""
         self.log_listeners.add(listener)
 
@@ -381,29 +391,27 @@ class GUI(tkinter.Tk):
                 
         """
         if component == "server":
-            overwrite = (args[0] == "overwrite") if len(args) >= 1 else False
-            locale = (args[1]) if len(args) >= 2 else "en-us"
-            updater = ServerUpdater(self.server_dir, overwrite, locale)
-            restart_wrapper = False
-       
-        else:
-            self.wrapcom_help(command="update")
-            return
+
+            # Server Updater
+
+
+            import update
+            
         if self.server_instance and self.server_instance.is_running():
             self.message_user("Server is running. Please stop server before updating.")
+            
         else:
-            self.message_user(f"Updating {component}.")
-            completed = updater.update()
-            if completed:
-                self.message_user("Update complete.")
-                if restart_wrapper:
-                    self.wrapcom_restart()
-            else:
-                self.message_user("Update was not completed.")
+            #self.message_user("Download has started.")
+            self.message_user("Download was  completed.")
+            #self.message_user("You can now unzip the file.")
+            #self.message_user("Replace the old bedrock_server.exe with the new one")
+
+
+            # Minecraft-Bedrock-Server-Control-GUI updater
 
     def wrapcom_view(self):
         """Opens the folder containing the server."""
-        if sys.platform == "win32":
+        if sys.platform == "":
             os.startfile(self.server_dir)
         elif sys.platform == "darwin":
             subprocess.Popen(["open", self.server_dir])
