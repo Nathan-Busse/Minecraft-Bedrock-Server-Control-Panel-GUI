@@ -2,6 +2,7 @@
 
 A control dashboard to monitor and control your minecraft bedrock dedicated server through an easy user interface.  Created by Nathan-Busse  13 January 2022  Made with Python 3.8
 
+# Currently only works for Windows
 
 ![preview](https://user-images.githubusercontent.com/82398683/150782839-8f6a9bd4-a26f-4eb5-a096-b56fc82ede2a.png)
 
@@ -30,19 +31,12 @@ https://youtu.be/aiSla-5xq3w
  
  # Step 3:
  
- Move the cloned Repository inside your Minecraft Bedrock Dedicated Server directory and extract it.
+ Move the extracted cloned Repository into Documents.
  
  # Step 4:
 
-Open the ```MCBE control gui.py``` Script in your IDE and change the directory to the location of your Minecraft Bedrock Dedicated Server.
+Move the extracted Minecraft Bedrock Dedicated Server folder to the cloned Repository folder
 
-```python
-  
-default_server_dir =  "C:/Users/Nathan/Documents/Minecraft Servers/bedrock-server-1.18.2.03" # Change directory to your server's location
-```
-# Step 5: 
-
-Save and close the script.
 
 # Step 6:
 
