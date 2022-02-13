@@ -13,11 +13,31 @@ This only works for Bedrock.
 
 # Installation.
 
+
 # Step 1:
+ Clone the repository.
+``` git clone https://github.com/Nathan-Busse/Minecraft-Bedrock-Server-Control-GUI.git ```
 
-Download the server from Minecraft: https://minecraft.net/download/server/bedrock
+ # Step 2:
+ 
+ Extract the cloned repository.
+ 
+ # Step 3:
+ 
+ Once the cloned Repository is extracted move the folder ```MCBE Server``` to ```Documents```
 
-Here is a tutorial to help you setup your Minecraft Server
+
+# Step 4:
+
+Download the server from the official Minecraft website: https://minecraft.net/download/server/bedrock
+
+# Step 5
+
+Move the ```bedrock-server-1.18.11.01.zip``` folder to ```MCBE Server``` (Latest version in the making of this ReadMe.)
+
+
+
+Here is a tutorial to help you setup your Minecraft Server.
 
 https://youtu.be/L36OdDIHkZg
 
@@ -25,28 +45,18 @@ Here is a tutorial to help you with port forwarding and setting up a Dynamic IP 
 
 https://youtu.be/aiSla-5xq3w
 
-# Step 2:
- Clone the repository.
-``` git clone https://github.com/Nathan-Busse/Minecraft-Bedrock-Server-Control-GUI.git ```
- 
- # Step 3:
- 
- Move the extracted cloned Repository into Documents.
- 
- # Step 4:
-
-Move the extracted Minecraft Bedrock Dedicated Server folder to the cloned Repository folder
 
 
 # Step 6:
 
-Run the ```install.py``` script.
+Once your bedrock server is set up. Open the ```MCBE control gui``` folder and run the ```install.py``` script.
 
 It will install all the package requirements automatically.
 
 It will automatically close the script.
 
 # Step 7
+In the ```MCBE control gui``` folder:
 
 Run ```MCBE control gui.py```.
 
@@ -57,7 +67,34 @@ The ```Server Console``` Displays the inputs and outputs and other useful inform
 
 The ```File``` button gives additional functions such as ```View folder directory```,  ```exit``` and ```force exit``` the script.
 
-The ```Update``` Updates the Server to the latest version. [DO NOT USE!] (Their is a bug that causes the programme to become unresponsive.)
+The ```Update``` Updates the Server to the latest version. 
+
+Here are the steps to install the update.
+
+# Step 1
+
+Click ```Update Server``` Make sure that the Server is not running.
+
+When completed a message will say ```Download completed```.
+
+# Step 2
+
+Close ```MCBE control gui.py```.
+
+# step 4
+
+In the ```MCBE control gui``` folder you will see a new zip folder.
+Open the zip folder without extracting and move the ```bedrock_server.exe``` folder to ```MCBE``` Server.
+
+A message box will a appear saying that the file already exists.
+Click ```Replace file in the destination```.
+
+# step 5 
+
+You are done. 
+You can delete the zip folder if you want.
+
+Now you can launch the ```MCBE control gui```. 
 
 The ```Start Server``` button Starts the server.
 
@@ -81,7 +118,7 @@ Quit correctly
 ```
 # What I plan to add to the GUI
 
-```Repair the Update bug```
+~~```Repair the Update bug```
 
 ```Auto Rollback```
 
