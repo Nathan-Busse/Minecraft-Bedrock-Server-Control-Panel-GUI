@@ -56,6 +56,10 @@ In the ```MCBE control gui``` folder:
 
 Run ```MCBE control gui.py```.
 
+# Step 8
+A firewall pop-up will appear.
+Make sure that both ```private``` and ```public``` networks are selected then click ```Allow```.
+
 Your Server should start automatically.
 
 # How to use the server updater feature
