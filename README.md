@@ -33,9 +33,7 @@ Download the server from the official Minecraft website: https://minecraft.net/d
 
 # Step 5
 
-Move the ```bedrock-server-1.18.11.01.zip``` folder to ```MCBE Server``` (Latest version in the making of this ReadMe.)
-
-
+Move the ```bedrock-server-1.18.11.01.zip``` folder to the ```MCBE Server``` folder (Latest version in the making of this ReadMe.)
 
 Here is a tutorial to help you setup your Minecraft Server.
 
@@ -44,8 +42,6 @@ https://youtu.be/L36OdDIHkZg
 Here is a tutorial to help you with port forwarding and setting up a Dynamic IP using a free and extremely reliable service called Dynu.
 
 https://youtu.be/aiSla-5xq3w
-
-
 
 # Step 6:
 
@@ -62,10 +58,7 @@ Run ```MCBE control gui.py```.
 
 Your Server should start automatically.
 
-# How to use.
-The ```Server Console``` Displays the inputs and outputs and other useful information of the server. 
-
-The ```File``` button gives additional functions such as ```View folder directory```,  ```exit``` and ```force exit``` the script.
+# How to use the server updater feature
 
 The ```Update``` Updates the Server to the latest version. 
 
@@ -73,7 +66,7 @@ Here are the steps to install the update.
 
 # Step 1
 
-Click ```Update Server``` Make sure that the Server is not running.
+Click ```Update```. Then click ```Update Server```. Make sure that the Server is not running.
 
 When completed a message will say ```Download completed```.
 
@@ -84,7 +77,7 @@ Close ```MCBE control gui.py```.
 # step 4
 
 In the ```MCBE control gui``` folder you will see a new zip folder.
-Open the zip folder without extracting and move the ```bedrock_server.exe``` folder to ```MCBE``` Server.
+Open the zip folder without extracting and move the ```bedrock_server.exe``` folder to ```MCBE Server```.
 
 A message box will a appear saying that the file already exists.
 Click ```Replace file in the destination```.
@@ -94,7 +87,15 @@ Click ```Replace file in the destination```.
 You are done. 
 You can delete the zip folder if you want.
 
-Now you can launch the ```MCBE control gui```. 
+Now you can launch the ```MCBE control gui.py```. 
+
+
+# Server features continued
+
+The ```Server Console``` Displays the inputs and outputs and other useful information of the server. 
+
+The ```File``` button gives additional functions such as ```View folder directory```,  ```exit``` and ```force exit``` the script.
+
 
 The ```Start Server``` button Starts the server.
 
