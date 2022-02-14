@@ -4,7 +4,8 @@ A control dashboard to monitor and control your minecraft bedrock dedicated serv
 
 # Currently only works for Windows
 
-![Screenshot (3)](https://user-images.githubusercontent.com/82398683/153769667-064605ee-757b-472b-bcfb-8c4f47b7d5ee.png)
+
+![Screenshot (5)](https://user-images.githubusercontent.com/82398683/153929326-7b7d4485-2623-4391-a653-917027dc03e5.png)
 
 
 # Note!
