@@ -125,6 +125,7 @@ Quit correctly
 # What I plan to add to the GUI
 
 ~~```Repair the Update bug```~~
+~~```Add a SplashScreen.```~~
 
 ```Auto Rollback```
 
