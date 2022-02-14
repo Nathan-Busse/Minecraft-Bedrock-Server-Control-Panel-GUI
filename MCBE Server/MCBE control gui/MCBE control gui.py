@@ -32,7 +32,34 @@ from player_list import PlayerList
 
 from backup import BackupListener, make_timestamp
 
+from tkinter import *
+   
+#Create an instance of tkinter frame
+splash_win= Tk()
 
+#Set the title of the window
+
+
+#Define the size of the window or frame
+splash_win.geometry("1920x1080")
+
+#Remove border of the splash Window
+
+splash_win.overrideredirect(True)
+
+#Define the label of the window
+
+splash_label= Label(splash_win, text= "Minecraft Bedrock Server Control Panel", fg= "green",
+font= ('Times New Roman', 40)).pack(pady=520)
+
+def mainWin():
+   splash_win.destroy()
+   
+#Splash Window Timer
+
+splash_win.after(3000, mainWin)
+
+mainloop()
 # Server directories
 
 class GUI(tkinter.Tk):
@@ -42,7 +69,7 @@ class GUI(tkinter.Tk):
     def __init__(self, *args, server_dir = None, exec_name = None, **kwargs):
         super().__init__(*args, **kwargs)
 
-        self.title('Minecraft Bedrock Server Control Panel')
+        self.title('Created by Nathan-Busse')
         self.geometry('700x700')
         self.minsize(700,700)
 
@@ -87,11 +114,6 @@ class GUI(tkinter.Tk):
         
         menu.add_cascade(label="Update",  menu=update_menu)
 
-        menu.add_cascade(label="Created by Nathan-Busse" )
-
-        #frame( bg="white")
-        
-        
 
     def __make_left(self):
         # Set up left-side GUI elements.
