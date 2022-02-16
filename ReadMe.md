@@ -34,7 +34,7 @@ Download the server from the official Minecraft website: https://minecraft.net/d
 
 # Step 5
 
-Move the ```bedrock-server-1.18.11.01.zip``` folder to the ```MCBE Server``` folder (Latest version in the making of this ReadMe.)
+Move the ```bedrock-server-1.18.11.01.zip``` folder to the ```MCBE Server``` folder amd extract it. (Latest version in the making of this ReadMe.)
 
 Here is a tutorial to help you setup your Minecraft Server.
 
