@@ -1,4 +1,4 @@
-# Minecraft-Bedrock-Server-Control-GUI
+# Minecraft-Bedrock-Server-Control-Panel
 
 A control dashboard to monitor and control your minecraft bedrock dedicated server through an easy user interface.  Created by Nathan-Busse  13 January 2022.  Made with Python 3.8
 
@@ -17,7 +17,7 @@ This only works for Bedrock.
 
 # Step 1:
  Clone the repository.
-``` git clone https://github.com/Nathan-Busse/Minecraft-Bedrock-Server-Control-GUI.git ```
+``` git clone https://github.com/Nathan-Busse/Minecraft-Bedrock-Server-Control-Panel.git ```
 
  # Step 2:
  
@@ -46,16 +46,16 @@ https://youtu.be/aiSla-5xq3w
 
 # Step 6:
 
-Once your bedrock server is set up. Open the ```MCBE control gui``` folder and run the ```install.py``` script.
+Once your bedrock server is set up. Open the ```MCBE Control Panel``` folder and run the ```install.py``` script.
 
 It will install all the package requirements automatically.
 
 It will automatically close the script.
 
 # Step 7
-In the ```MCBE control gui``` folder:
+In the ```MCBE Control Panel``` folder:
 
-Run ```MCBE control gui.py```.
+Run ```MCBE Control Panel.py```.
 
 # Step 8
 A firewall pop-up will appear.
@@ -81,7 +81,7 @@ Close ```MCBE control gui.py```.
 
 # step 4
 
-In the ```MCBE control gui``` folder you will see a new zip folder.
+In the ```MCBE Control Panel``` folder you will see a new zip folder.
 Open the zip folder without extracting and move the ```bedrock_server.exe``` folder to ```MCBE Server```.
 
 A message box will a appear saying that the file already exists.
@@ -92,7 +92,7 @@ Click ```Replace file in the destination```.
 You are done. 
 You can delete the zip folder if you want.
 
-Now you can launch the ```MCBE control gui.py```. 
+Now you can launch the ```MCBE Control Panel.py```. 
 
 
 # Server features continued
