@@ -16,7 +16,7 @@ This only works for Bedrock.
 
 
 # Step 1:
-Open the Command prompt and type:
+Open the ```Command prompt``` and type:
 ```cd Documents```
 
  Then clone the repository.
