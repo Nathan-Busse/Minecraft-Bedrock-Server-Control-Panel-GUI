@@ -17,7 +17,7 @@ This only works for Bedrock.
 
 # Step 1:
  Clone the repository.
-``` git clone https://github.com/Nathan-Busse/Minecraft-Bedrock-Server-Control-Panel.git ```
+``` git clone https://github.com/Nathan-Busse/Minecraft-Bedrock-Server-Control-GUI.git ```
 
  # Step 2:
  
@@ -77,7 +77,7 @@ When completed a message will say ```Download completed```.
 
 # Step 2
 
-Close ```MCBE control gui.py```.
+Close ```MCBE Control Panel.py```.
 
 # step 4
 
@@ -124,7 +124,7 @@ Quit correctly
 ```
 # What I plan to add to the GUI
 
-~~```Repair the Update bug```~~
+~~```Repair the Update bug``` ~~ Temporary fix.
 
 ~~```Add a SplashScreen```~~
 
