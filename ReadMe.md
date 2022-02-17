@@ -1,4 +1,4 @@
-# Minecraft-Bedrock-Server-Control-Panel
+# Minecraft-Bedrock-Server-Control-Panel-GUI
 
 A control dashboard to monitor and control your minecraft bedrock dedicated server through an easy user interface.  Created by Nathan-Busse  13 January 2022.  Made with Python 3.8
 
@@ -17,7 +17,7 @@ This only works for Bedrock.
 
 # Step 1:
  Clone the repository.
-``` git clone https://github.com/Nathan-Busse/Minecraft-Bedrock-Server-Control-GUI.git ```
+``` git clone https://github.com/Nathan-Busse/Minecraft-Bedrock-Server-Control-Panel-GUI.git ```
 
  # Step 2:
  
