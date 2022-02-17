@@ -58,7 +58,7 @@ It will automatically close the script.
 # Step 7
 In the ```MCBE Control Panel``` folder:
 
-Run ```MCBE Control Panel.py```.
+Run ```MCBE Control Panel.pyw```.
 
 # Step 8
 A firewall pop-up will appear.
@@ -80,7 +80,7 @@ When completed a message will say ```Download completed```.
 
 # Step 2
 
-Close ```MCBE Control Panel.py```.
+Close ```MCBE Control Panel.pyw```.
 
 # step 4
 
@@ -95,7 +95,7 @@ Click ```Replace file in the destination```.
 You are done. 
 You can delete the zip folder if you want.
 
-Now you can launch the ```MCBE Control Panel.py```. 
+Now you can launch the ```MCBE Control Panel.pyw```. 
 
 
 # Server features continued
