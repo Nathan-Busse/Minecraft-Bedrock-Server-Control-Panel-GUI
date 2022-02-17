@@ -16,7 +16,10 @@ This only works for Bedrock.
 
 
 # Step 1:
- Clone the repository.
+Open the Command prompt and type:
+```cd Documents```
+
+ Then clone the repository.
 ``` git clone https://github.com/Nathan-Busse/Minecraft-Bedrock-Server-Control-Panel-GUI.git ```
 
  # Step 2:
