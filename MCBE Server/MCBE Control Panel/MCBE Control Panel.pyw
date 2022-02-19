@@ -69,7 +69,18 @@ class GUI(tkinter.Tk):
         super().__init__(*args, **kwargs)
 
         self.title('Created by Nathan-Busse')
-        self.geometry('700x700')
+
+        app_width = 700
+        app_height = 700
+
+        screen_width = self.winfo_screenwidth()
+        screen_height = self.winfo_screenheight()
+
+        x = (screen_width / 2) - (app_width / 2)
+        y = (screen_height / 2 ) - (app_height / 2)
+
+
+        self.geometry(f'{app_width}x{app_height}+{int(x)}+{int(y)}')
         self.minsize(700,700)
 
 
@@ -178,7 +189,7 @@ class GUI(tkinter.Tk):
         """Reads input from the server or user and calls listeners."""
         # Send server messages to listeners.
         for listener in self.log_listeners.copy():
-            listener(self, message)
+            listener(self,  message  )
         pass
 
     def __send_input(self,  input_source, clear_input, echo = True):
@@ -422,6 +433,8 @@ class GUI(tkinter.Tk):
             self.message_user("Server is running. Please stop server before updating.")
             
         else:
+            
+
             #self.message_user("Download has started.")
             self.message_user("Download was  completed.")
             #self.message_user("You can now unzip the file.")
