@@ -131,6 +131,8 @@ Quit correctly
 
 ~~```Add a SplashScreen```~~
 
+``` Performance Monitor```
+
 ```Auto Rollback```
 
 ```Auto restart and shutdown```
