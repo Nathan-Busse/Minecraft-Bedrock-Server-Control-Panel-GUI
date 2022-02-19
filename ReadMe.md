@@ -133,7 +133,7 @@ Quit correctly
 ~~```Add a SplashScreen```~~
 
 
-
+```Add a performance monitor```
 
 ```Auto Rollback```
 
