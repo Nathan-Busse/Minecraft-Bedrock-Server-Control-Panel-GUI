@@ -127,7 +127,7 @@ Quit correctly
 ```
 # What I plan to add to the GUI
 
-~~```Repair the Update bug``` ~~
+~~```Repair the update bug```~~
 
 
 ~~```Add a SplashScreen```~~
