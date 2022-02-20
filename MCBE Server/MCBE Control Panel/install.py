@@ -12,5 +12,8 @@ os.system('cmd /c "pip install contextlib"')
 os.system('cmd /c "pip install threading"')
 os.system('cmd /c "pip install inspect"')
 os.system('cmd /c "pip install requests"')
+os.system('cmd /c "pip install pyautogui"')
+os.system('cmd /c "pip install PySimpleGUI"')
+
 
 sys.exit()
