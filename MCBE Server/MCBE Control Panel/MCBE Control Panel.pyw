@@ -64,9 +64,8 @@ def messageUI():
 
 def antisleep():
     while True:
-        pyautogui.press('volumedown')
-        time.sleep(1)
-        pyautogui.press('volumeup')
+        
+        pyautogui.press('numlock')
         time.sleep(30) # Seconds
         
 
