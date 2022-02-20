@@ -127,7 +127,7 @@ Quit correctly
 ```
 # What I plan to add to the GUI
 
-~~```Repair the update bug```~~
+~~```Patch the update bug```~~
 
 ~~```Patch window centre bug```~~
 
