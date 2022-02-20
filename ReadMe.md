@@ -133,7 +133,7 @@ Quit correctly
 
 ~~```Add a SplashScreen```~~
 
-```Add an anti-sleep system```
+~~```Add an anti-sleep system```~~~
 
 ```Add a performance monitor```
 
