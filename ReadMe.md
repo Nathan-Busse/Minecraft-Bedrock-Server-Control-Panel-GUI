@@ -129,7 +129,7 @@ Quit correctly
 
 ~~```Repair the update bug```~~
 
-~~```Repair window centre bug```~~
+~~```Patch window centre bug```~~
 
 ~~```Add a SplashScreen```~~
 
