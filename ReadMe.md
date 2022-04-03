@@ -107,7 +107,9 @@ The ```File``` button gives additional functions such as ```View folder director
 
 The ```Start Server``` button Starts the server.
 
-The ```Backup World``` button Creates a copy of your world.
+The ```Backup World``` button Creates a copy of your world which can be executed even while your world is still running meaning you don't have to shut the server down.
+How it works is that it pauses the world save temporarily which means that no world correction. The players are still able to play but while it is backing the world up it does not save any changes made.
+Once backup is complete world save will be resumed and changes made during the back up and after will be saved.
 
 The ```Players``` Lists the players connected to the server.
 
