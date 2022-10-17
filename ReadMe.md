@@ -153,6 +153,8 @@ Quit correctly
 
 ```Add a stop button```
 
+```Add a configuration menu```
+
 
 Enjoy! 😉
 
