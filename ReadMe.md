@@ -48,10 +48,6 @@ Move the ```bedrock-server-1.18.11.01.zip``` folder to the created folder called
 
 You can delete the zip file once everything is extracted.
 
-Here is a tutorial to help you setup your Minecraft Server.
-
-https://youtu.be/L36OdDIHkZg
-
 Here is a tutorial to help you with port forwarding and setting up a Dynamic IP using a free and extremely reliable service called Dynu.
 
 https://youtu.be/aiSla-5xq3w
