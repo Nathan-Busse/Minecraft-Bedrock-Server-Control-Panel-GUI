@@ -30,14 +30,23 @@ Open the ```Command prompt``` and type:
  
  Once the cloned Repository is extracted move the folder ```MCBE Server``` to ```Documents```
 
-
 # Step 4:
+
+Open the ```MCBE Control Panel``` folder under ```Scripts``` run the ```install.py``` script.
+
+It will install all the package requirements automatically and create a folder called ```Server``` where the downloaded Bedrock Dedicated Server will be located.
+
+It will automatically close the script.
+
+# Step 5:
 
 Download the server from the official Minecraft website: https://minecraft.net/download/server/bedrock
 
-# Step 5
+# Step 6:
 
-Move the ```bedrock-server-1.18.11.01.zip``` folder to the ```MCBE Server``` folder amd extract it. (Latest version in the making of this ReadMe.)
+Move the ```bedrock-server-1.18.11.01.zip``` folder to the created folder called ```Server``` and extract it. (Latest version in the making of this ReadMe.)
+
+You can delete the zip file once everything is extracted.
 
 Here is a tutorial to help you setup your Minecraft Server.
 
@@ -47,20 +56,14 @@ Here is a tutorial to help you with port forwarding and setting up a Dynamic IP 
 
 https://youtu.be/aiSla-5xq3w
 
-# Step 6:
+# Step 7:
 
-Once your bedrock server is set up. Open the ```MCBE Control Panel``` folder and run the ```install.py``` script.
-
-It will install all the package requirements automatically.
-
-It will automatically close the script.
-
-# Step 7
-In the ```MCBE Control Panel``` folder:
+Inside the ```MCBE Control Panel``` folder under ```Scripts```:
 
 Run ```MCBE Control Panel.pyw```.
 
 # Step 8
+
 A firewall pop-up will appear.
 Make sure that both ```private``` and ```public``` networks are selected then click ```Allow```.
 
