@@ -44,7 +44,7 @@ Download the server from the official Minecraft website: https://minecraft.net/d
 
 # Step 6:
 
-Move the ```bedrock-server-1.18.11.01.zip``` folder to the created folder called ```Server``` and extract it. (Latest version in the making of this ReadMe.)
+Move the ```bedrock-server-1.19.31.01.zip``` folder to the created folder called ```Server``` and extract it. (Latest version in the making of this ReadMe.)
 
 You can delete the zip file once everything is extracted.
 
@@ -114,7 +114,7 @@ The ```Players``` Lists the players connected to the server.
 
 The ```Interact``` Send in-game commands through the control panel.
 
-The ```Send Command``` Used to send console commands or in-game commands.
+The ```Send Host Command``` Used to send console commands or in-game commands.
 
 The ```SEND``` button Sends the command to the console.
 
