@@ -38,17 +38,43 @@ from backup import BackupListener, make_timestamp
         # Anti sleep
 # --------------------------- #
 
+def messageUI():
+    background = '#F0F0F0'
+    sg.SetOptions(background_color=background, 
+    element_background_color=background, 
+    text_element_background_color=background,
+    window_location=(734, 78), 
+    margins=(0,0), 
+    text_color = 'Black',
+    input_text_color ='Black',
+    button_color = ('Black', 'gainsboro'),
+    )
 
+    layout = [
+        
+        [sg.Text('Close window to stop Anti-sleep', size=(25, 2), key='-text-', font="Arial, 21")]
+    ]
+    window = sg.Window('Anti-sleep is running',  layout)
+
+    p2 = multiprocessing.Process(target = antisleep)
+    p2.start()
+    
+    while True:
+        event, values = window.read()
+        if event == sg.WIN_CLOSED: # if user closes window or clicks cancel
+            if p2.is_alive(): 
+                p2.terminate()
+            break
 
 def antisleep():
     while True:
         
         pyautogui.press('numlock')
-        time.sleep(5) # Seconds
+        time.sleep(30) # Seconds
         
 
 if __name__ == '__main__':
-    p1 = multiprocessing.Process(target = antisleep)
+    p1 = multiprocessing.Process(target = messageUI)
     p1.start()
 
 
@@ -65,7 +91,7 @@ if __name__ == '__main__':
 
     #Define the label of the window
     img=PhotoImage(file='~/Documents/My Bedrock Server/MCBE Server/MCBE Control Panel/Dependencies/MCBE.png')
-    splash_label= Label(splash_win, image=img).pack(pady=200)
+    splash_label= Label(splash_win, image=img).pack(pady=400)
 
     def mainWin():
        splash_win.destroy()
