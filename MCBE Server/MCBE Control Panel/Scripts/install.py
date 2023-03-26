@@ -15,9 +15,9 @@ os.system('cmd /c "pip install requests"')
 os.system('cmd /c "pip install pyautogui"')
 os.system('cmd /c "pip install PySimpleGUI"')
 
-dirname = os.path.dirname("Prepare")
+dirname = os.path.dirname("Server")
 file_path = 'c:/users/' + os.getlogin()
-filename = os.path.join(dirname, file_path,'./Documents/MCBE Server/Server' )
+filename = os.path.join(dirname, file_path,'./Documents/My Bedrock server/MCBE Server/Server' )
 
 os.mkdir(filename)
 
