@@ -90,7 +90,7 @@ if __name__ == '__main__':
     splash_win.overrideredirect(True)
 
     #Define the label of the window
-    img=PhotoImage(file='~/Documents/MCBE Server/MCBE Control Panel/Dependencies/MCBE.png')
+    img=PhotoImage(file='~/Documents/My Bedrock server/MCBE Server/MCBE Control Panel/Dependencies/MCBE.png')
     splash_label= Label(splash_win, image=img).pack(pady=400)
 
     def mainWin():
@@ -106,7 +106,7 @@ if __name__ == '__main__':
 
     class GUI(tkinter.Tk):
 
-        default_server_dir =os.path.expanduser('~/Documents/MCBE Server/Server') 
+        default_server_dir =os.path.expanduser('~/Documents/My Bedrock server/MCBE Server/Server') 
         default_exec_name = "bedrock_server.exe"
 
         def __init__(self, *args, server_dir = None, exec_name = None, **kwargs):
