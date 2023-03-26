@@ -28,11 +28,11 @@ Open the ```Command prompt``` and type:
  
  # Step 3:
  
- Once the cloned Repository is extracted move the folder ```My Bedrock server``` to ```Documents```
+ Once the cloned Repository is extracted move the folder ```My Bedrock Server``` to ```Documents``` and open it.
 
 # Step 4:
 
-Inside the folder ```MCBE server``` open the ```MCBE Control Panel``` folder under ```Scripts``` and run the ```install.py``` script.
+Inside the folder ```MCBE Server``` open the ```MCBE Control Panel``` folder and under ```Scripts``` run the ```install.py``` script.
 
 It will install all the package requirements automatically and create a folder called ```Server``` where the downloaded Bedrock Dedicated Server will be located.
 
