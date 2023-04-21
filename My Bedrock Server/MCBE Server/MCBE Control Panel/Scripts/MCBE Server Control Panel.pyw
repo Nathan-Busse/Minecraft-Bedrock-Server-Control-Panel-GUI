@@ -280,7 +280,7 @@ if __name__ == '__main__':
 
         dirname = os.path.dirname("backup")
         file_path = 'c:/users/' + os.getlogin()
-        filename = os.path.join(dirname, file_path,'./Documents/MCBE Server/World Backup' )
+        filename = os.path.join(dirname, file_path,'./Documents/My Bedrock Server/MCBE Server/World Backup' )
 
 
         def backup_world(self, backup_location = filename, add_timestamp = True):
