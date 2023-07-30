@@ -2,7 +2,7 @@
 
 A control dashboard to monitor and control your minecraft bedrock dedicated server through an easy user interface.  Created by Nathan-Busse  13 January 2022.  Made with Python 3.8
 
-# Currently only works for Windows
+# Currently only works for Windows 10 & 11
 
 
 ![Screenshot (5)](https://user-images.githubusercontent.com/82398683/153929326-7b7d4485-2623-4391-a653-917027dc03e5.png)
