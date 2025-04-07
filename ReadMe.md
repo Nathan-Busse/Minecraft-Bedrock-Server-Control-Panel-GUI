@@ -1,6 +1,6 @@
 # Minecraft-Bedrock-Server-GUI
 
-A control dashboard to monitor and control your minecraft bedrock dedicated server through an easy user interface.  Created by Nathan-Busse  13 January 2022.  Made with Python 3.8
+A control dashboard to monitor and control your Minecraft bedrock dedicated server through an easy user interface.  Created by Nathan-Busse  13 January 2022.  Made with Python 3.8
 
 # Currently only works for Windows 10 & 11
 
