@@ -136,6 +136,10 @@ Quit correctly
 
 ~~```Add an anti-sleep system```~~
 
+```Dark theme```
+
+```Linux support```
+
 ```Add a performance monitor```
 
 ```Auto Rollback```
