@@ -1,18 +1,31 @@
 """
 TODO:
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
+1. Dark theme
+
+2. Linux support
+
+3. Add a performance monitor
+
+4. Auto Rollback
+
+5. Auto restart and shutdown
+
+6. Auto backup everytime before installing the latest sever update and or is updated to the latest version
+
+7. Access sever.properties through the console
+
+8. Access whitelist.json through the console
+
+9. Access permissions.json through the console
+
+10. Add a stop button
+
+11. Add a configuration menu
+
+12. Add an auto world backup at set times.
+
+13. List the players in configuration menu.
 """
 
 # --------------------------- #
