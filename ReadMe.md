@@ -158,7 +158,9 @@ Quit correctly
 
 ```Add a configuration menu```
 
-```Add an auto world backup at set times bt the user in configuration menu```
+```Add an auto world backup at set times.```
+
+```List the players in configuration menu.```
 
 
 Enjoy! 😉
